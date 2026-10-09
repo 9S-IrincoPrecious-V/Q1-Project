@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Project</title>
+    <style>
+         body{
+            background-color: rgb(255, 240, 123);
+            color:rgb(112, 73, 1)
+        }
+
+        header{
+            background-color: rgb(255, 240, 123);
+            margin: 0%;
+        }
+
+        hr{
+            color: rgb(112, 73, 1)
+        }
+
+        img{
+            width: 100px
+        }
+    
+        .nested-list{
+            background-color: rgb(255, 249, 203);
+            border: 5px solid;
+            padding: 15px;
+            padding-top: 5px;
+            margin: 0%;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        input{
+            padding: 5px;
+            padding-left: 250px;
+            padding-right: 250px;
+        }
+
+        select{
+            padding: 5px;
+            padding-left: 150px;
+            padding-right: 150px
+        }
+
+        textarea{
+            padding: 30px;
+            padding-left: 150px;
+            padding-right: 150px;
+        }
+
+        footer{
+            background-color: rgb(255, 240, 123);
+            border: 5px solid;
+            padding: 25px;
+            text-align: center;
+        }
+
+    </style>
+<body>
+    <header>
+        <!-- HEADER -->
+        <center>
+        <img src="logo.png">
+        <h1>My Personal Portfolio</h1>
+        <hr>
+        <h3><u>About Me  |  My Works  |  Contact Me</u></h3>
+        <hr>
+        </center>
+    </header>
+
+        <!-- ABOUT ME -->
+    <div class="nested-list">
+        <center>
+        <h1>About Me</h1>
+        <hr>
+        <img src="headshot1.png" style="width: 150px"><br>
+        <h2>Greetings! I am <b><em>Precious Irinco</em></b></h2>
+        <p>I am a student taking a class in <em>Informations and Communications Technology.</em><br>
+            In this webpage, I will display my works as an aspiring coder.</p>
+        </center>
+    </div>
+
+        <!-- MY WORKS -->
+    <div class="nested-list">
+    <center>
+    <h1>My Works</h1>
+    <hr>
+    <br>
+       <img src="work1.png" style="width: 450px; border: 5px; border-style: dotted;">
+       <h3><b><em>My Top 3 Spotify Artists</em></b></h3>
+       <ul>
+        <li>✓ HTML & CSS Projects</li>
+        <li>✓ Spotify Artists</li>
+        <li>✓ Lists, Links, Images</li>
+       <a href="https://github.com/9S-IrincoPrecious-V">Visit My GitHub Here!</a>
+       </ul>
+
+       <img src="work2.png" style="width: 450px; border: 5px; border-style: dotted;">
+       <h3><b><em>My Rate a Movie Form</em></b></h3>
+       <ul>
+        <li>✓ HTML & CSS Projects</li>
+        <li>✓ HTML Forms</li>
+        <li>✓ Movie Recommendations</li>
+        <a href="https://github.com/9S-IrincoPrecious-V">Visit My GitHub Here!</a>
+       </ul>
+      
+    </center>
+    </div>
+
+        <!-- CONTACT ME -->
+    <div class="nested-list">
+    <h1>Contact Me</h1>
+    <center>
+    <hr>
+    <div class="Contact">
+    <form>
+        <fieldset>
+            <!-- INFO -->
+            <label for="full-name"><b>Your Name:</b></label><br>
+            <input id="full-name" type="text" placeholder="Enter Full Name Here"><br>
+             <label for="email"><b>Your Email:</b></label><br>
+            <input id="email" type="email" placeholder="example@sample.com">
+            <hr>
+
+            <!-- INTERVIEW -->
+            <label for="where"><b>How did you find me?</b></label>
+            <input type="radio" name=where id="fb">
+            <label for="fb">Facebook</label>
+            <input type="radio" name="where" id="goo">
+            <label for="goo">Google</label>
+            <input type="radio" name="where" id="frnds">
+            <label for="frnds">Friends</label>
+            <br>
+
+            <br>
+            <label for="interest"><b>What are you interested in?</b></label>
+            <input type="checkbox" name="interest" id="wd">
+            <label for="wb">Web Design</label>
+            <input type="checkbox" name="interest" id="gd">
+            <label for="gb">Graphic Design</label>
+            <input type="radio" name="interest" id="rb">
+            <label for="rb">Robotics</label>
+            <br>
+
+            <br>
+             <label for="rate"><b>Rate My Portfolio</b></label>                    <select name="rate">
+                        <option value="select" selected>-- Select Your Rating --</option>
+                        <option value="1s">⭐</option>
+                        <option value="2s">⭐⭐</option>
+                        <option value="3s">⭐⭐⭐</option>
+                        <option value="4s">⭐⭐⭐⭐</option>
+                        <option value="5s">⭐⭐⭐⭐⭐</option>
+                    </select>
+            <br>
+            
+            <!-- FEEDBACK -->
+            <br>
+            <label for="feedback"><b>Any Feedback?</b></label>
+            <br>
+            <textarea placeholder="Enter Feedback Here"></textarea>
+            <br>
+
+            <!-- SUBMIT -->
+            <br>
+            <input type="submit" style="background-color: goldenrod; color: antiquewhite; padding-left: 300px; padding-right: 300px; padding-top: 15px; padding-bottom: 15px";>
+        </fieldset>
+    </center>
+    </form>
+    </div>
+    </div>
+</body>
+<!-- FOOTER -->
+<footer><em>© 2026 Precious Irinco  |  All rights reserved.</em></footer>
+</html>
